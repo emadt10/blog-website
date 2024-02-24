@@ -4,14 +4,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+ 
 }
-body{
+body {
   margin: 0;
   padding: 0;
   background: linear-gradient(120deg,#2980b9, #8e44ad);
   height: 100vh;
-  overflow: hidden;
+  
 }
+
 .center{
   position: absolute;
   top: 50%;
@@ -119,8 +121,8 @@ input#loginWithGoogleBtn {
 
 .container {
   width: fit-content;
-  max-height: 100vh; /* Set a maximum height of the container */
-  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; 
+  overflow-y: auto; 
   overflow-x: auto;
 }
 
@@ -241,8 +243,118 @@ select#category{
 .heading1 {
   font-family: fantasy;
   font-size: 38px;
-  margin-left: 390px;
+  margin-left: 550px;
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
 
 }
+/* blog box Styling */
+.hero-content.flex-col.lg\:flex-row {
+  margin-right: 38vh;
+}
+
+p#blogCreator {
+  margin-top: 10px;
+  margin-left: 11px;
+  margin-right: 3vh;
+}
+p#blogDate {
+  margin-top: 10px;
+}
+.avatar {
+  position: relative;
+  display: inline-flex;
+  margin-top: 6px;
+}
+
+/* read More Styling */
+.hero.min-h-screen.bg-base-200 {
+  
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white;
+}
+.collapse.bg-base-200.bpost {
+  width: 88%;
+  margin-left: 13vh;
+  margin-top: 10px
+}
+
+img#userPic {
+  margin-bottom: 104vh;
+  margin-right: -26vh;
+  position: relative;
+}
+h1#blogTitleByID {
+  margin-top: 54px;
+  margin-left: 154px;
+}
+
+p#blogContentByID {
+  margin-top: -14px;
+  margin-left: 159px;
+}
+
+div#blogDetailContainer {
+  margin-top: -20px;
+  margin-left: 149px;
+}
+
+
+#replyBox {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100vh; Adjust as needed */
+}
+
+#replyBox label {
+  margin-bottom: 10px;
+}
+
+#replyBox textarea {
+  width: 300px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  margin-bottom: 10px;
+}
+
+#replyBox button {
+  margin-bottom: 10px;
+}
+
+div#lblrep {
+  margin-top: 23px;
+  
+  margin-left: 145px;
+}
+
+textarea#reply {
+  margin-top: 20px;
+  margin-left: 146px;
+  width: 79%;
+  height: 20%;
+ 
+}
+
+button#submitReply {
+  margin-top: 22px;
+  margin-left: 160px;
+}
+
+div#replyDetails {
+  padding: 19px;
+}
+/* reply box image and reply */
+img#replyUserPic {
+  height: 11vh;
+  margin-left: 25vh;
+  margin-top: 18px;
+}
+
+div#replyDetails {
+  padding: 19px;
+  margin-left: 130px;
+}
+
+
